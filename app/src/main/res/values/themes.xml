@@ -1,0 +1,55 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BulsuXplore" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/red</item>
+        // main color: red
+        <item name="colorPrimaryVariant">@color/red</item>
+        <item name="android:statusBarColor">@color/white</item>
+        // set status bar to white color
+        <item name="android:windowLightStatusBar">true</item>
+        // set status bar icons to dark color
+
+
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+
+    <style name="Theme.BulsuXplore" parent="Base.Theme.BulsuXplore" />
+
+
+    //Bottom Menu back ground Theme//
+
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@android:color/transparent</item>
+        <item name="android:width">50dp</item> <!-- Adjust the width as needed -->
+        <item name="android:height">50dp</item>
+
+
+    </style>
+
+    // Splash Screen Theme//
+
+    <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        //1st item: Background color of Splash Screen
+        <item name="windowSplashScreenAnimatedIcon">@drawable/avd_splashscreen</item>
+        <item name="windowSplashScreenAnimationDuration">3000</item>
+        //2nd item: Display Splash Screen Logo
+        <item name="postSplashScreenTheme">@style/Base.Theme.BulsuXplore</item>
+        //3rd
+    </style>
+
+    // Notification bar
+
+    <style name="NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>

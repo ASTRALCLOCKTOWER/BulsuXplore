@@ -1,0 +1,320 @@
+<resources>
+    // all text must be declared here to prevent hardcoded text :) //
+    <string name="app_name">BulsuXplore</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="are_you_vis">Are you visiting the university?</string>
+    //login fields
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    //Events
+    <string name="create_post">"What's up?"</string>
+    <string name="pick_date">"Pick a date"</string>
+
+    //mapbox
+    <string name="mapbox_access_token">sk.eyJ1Ijoia29taWNoaXdhIiwiYSI6ImNsb21mczQ2ZDIwYmkycm52YzkwY3pndGIifQ.yV9Rqc1vtsY8hoqTX4tJMQ</string>
+
+    // screen slider//
+    <string name="slider1Name">BULSUXPLORE</string>
+    <string name="slider2Name">EXPLORE</string>
+    <string name="slider3Name">EVENTS</string>
+
+    <string name="slider1Desc">Discover and navigate through different locations within the BulSU Main campus. Whether you are a student trying to find your next class or a visitor exploring the campus for the first time. </string>
+    <string name="slider2Desc">Get real-time updates on ongoing events and important news from the main campus, recognized organizations, and colleges.</string>
+    <string name="slider3Desc">Whether you are looking for a specific department, facility, or just curious to wander, Xplore helps you effortlessly find your way around main campus. Explore different spots and discover interesting historical details about the buildings on campus..</string>
+
+    <string name="sliderStartdesc">Xplore the Bulsu Main Campus</string>
+    <string name="title_activity_screen_slider">ScreenSliderActivity</string>
+
+    //pop-out Markers card view//
+    <string name="poi1">Federizo Hall</string>
+    <string name="subpoi1">College of Science, College of Arts and Letters, College of Architecture</string>
+    <string name="desc1">In this building, computer science students suffer sooooo bad. me too :(( </string>
+
+    <string name="poi2">E-library</string>
+    <string name="subpoi2">7-storey building</string>
+    <string name="desc2">In this building, we tambay  </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_change_password">ChangePasswordActivity</string>
+    <string name="title_activity_chnage_password">ChnagePasswordActivity</string>
+    <string name="title_activity_dash_portal">DashPortalActivity</string>
+
+
+    <!-- 0 Activity Center Description -->
+    <string name="info_1">The Activity Center is a university facility that serves as a venue for various student activities, featuring an open area and stage equipped with sound systems and lighting. It provides opportunities for students to showcase their talents and build community outside of the classroom.</string>
+
+    <!-- 1 Alvarado Hall Description -->
+    <string name="info_2">Alvarado Hall is a university building named after a former Bulacan governor, serving as a venue for academic and social events such as conferences, seminars, and exhibits. It features a spacious auditorium, meeting rooms, and exhibit areas with modern facilities to support these events.</string>
+
+    <!-- 2 Athletes Building Description -->
+    <string name="info_3">The Athletes Building is a university facility that provides accommodations and amenities for student-athletes, such as dormitory-style rooms and a fitness center. It supports the physical and mental well-being of athletes and promotes a healthy and active lifestyle.</string>
+
+    <!-- 3 Carpio Hall Description -->
+    <string name="info_4">Carpio Hall is a university building that serves as the home of the College of Engineering, Architecture, and Fine Arts. It\'s named after a former university president and features modern facilities such as labs, classrooms, and studios to support students\' learning needs in those fields.</string>
+
+    <!--  4 College of Business Administration Building Description -->
+    <string name="info_5">The building features modern facilities and equipment, including computer laboratories and a business incubation center. It is a hub for business education and training, providing students with opportunities to develop their skills and knowledge in various areas of business and management.</string>
+
+    <!-- Chocolate Building Description -->
+    <string name="info_6">The College of Criminal Justice Education (CCJE) was created in February 2011. The offering of BA in Legal Management in 2004 and the BS Criminology in 2007 was the precursor of the creation of CCJE as an independent college. Formerly, the Criminology and Legal Management Programs were under the umbrella of the College of Social Sciences and Philosophy under the stewardship of its founding Dean, Dr. Revnaldo S Naauit.</string>
+
+    <!-- CHTM Building Description -->
+    <string name="info_7">The building is equipped with state-of-the-art facilities such as food science and technology laboratories, a library, and classrooms. It is an essential part of the university\'s infrastructure, providing students with a modern and supportive learning environment to develop their skills and knowledge in the field of home economics.</string>
+
+    <!-- E-Library Description -->
+    <string name="info_8">The BulSU E-Library is a modernized learning resource center that provides access to various digital resources. It aims to support the academic and research needs of the Bulacan State University community by providing a platform for accessing and sharing information in a convenient and efficient way. With its digital resources and modern amenities, the e-Library serves as a hub of innovation and knowledge-sharing within the university.</string>
+
+    <!-- Federizo Hall Description -->
+    <string name="info_9">Federizo Hall is a university building that serves as a multi-purpose facility. It houses classrooms, laboratories, and administrative offices. The building is equipped with state-of-the-art technology and resources to support various academic programs. Federizo Hall also features conference rooms and other event spaces that can accommodate a range of activities.</string>
+
+    <!-- Flores Hall Description -->
+    <string name="info_10">The building is named after the former Bulacan Governor, Jose Padilla Flores, who made significant contributions to the development of the province. Flores Hall is an important part of the university\'s infrastructure, providing state-of-the-art facilities such as a simulation laboratory and a hotel training center to support the learning needs of students.</string>
+
+    <!-- Hostel Description -->
+    <string name="info_11">The BulSU Hostel is a dormitory situated inside Bulacan State University, offering cost-efficient accommodation for students. It features air-conditioned rooms with private bathrooms and study areas, along with amenities like a lounge area, kitchenette, and laundry room for a comfortable stay.</string>
+
+    <!-- College of Law Building Description -->
+    <string name="info_12">The College of Law Building is a modern facility that serves as the academic hub for law students. It features classrooms, seminar rooms, a moot court, and a library. The building provides a conducive environment for legal education, fostering critical thinking, research, and advocacy skills among its students.</string>
+
+    <!-- Mendoza Hall Description -->
+    <string name="info_13">Mendoza Hall is a university building that houses classrooms, laboratories, and administrative offices. It serves as a hub for academic programs and student services, providing resources and facilities to support teaching, research, and learning. The building features modern facilities and equipment, as well as state-of-the-art technology to support the needs of students, faculty, and staff.</string>
+
+    <!-- Natividad Hall Description -->
+    <string name="info_14">Natividad Hall is the main administrative building of Bulacan State University. It is named after Jose and Natividad Garcia, and serves as the central hub for the university\'s administrative departments, including the offices of the university president and vice presidents. The building features a modern design with traditional elements and is a prominent symbol of the university\'s commitment to academic excellence.</string>
+
+    <!-- Pimentel Hall Description -->
+    <string name="info_15">Pimentel Hall is a university building that houses the College of Industrial Technology (CIT) in Bulacan State University. It features modern facilities such as laboratories, workshops, and classrooms, providing students with a conducive environment for hands-on learning in the field of technology. The building is named after a former university president who was instrumental in the development of the CIT program.</string>
+
+    <!-- Roxas Hall Description -->
+    <string name="info_16">Roxas Hall is a building at Bulacan State University named after former Philippine President Manuel Roxas. It houses the College of Industrial Technology and the College of Home Economics, and is equipped with modern amenities such as laboratories and workshops to support learning and research.</string>
+
+    <!-- SRLC -->
+    <string name="info_17"> No information Available. </string>
+
+    <!-- Valencia Hall Description -->
+    <string name="info_18">The hall is designed to provide a conducive learning environment that enhances the academic experience of students and faculty members. It is one of the key buildings in the university, serving as a hub for various academic and research activities. Valencia Hall is also a place for students to connect and collaborate, fostering a sense of community and belonging within the university.</string>
+
+
+    <!-- BULSU ABOUT    -->
+    <string name="bulsu_about">Bulacan State University (BulSU) is the leading state institution in Central Luzon, evolving from a secondary school established by Americans in 1904 to one of Region III\s largest educational hubs. Recognized as a university in 1993 under Republic Act 7665, BulSU has expanded its programs, faculty expertise, and student enrollment, aiming to be a globally acclaimed center for instruction, research, and community engagement. \n\nWith four external campuses and a commitment to excellence, BulSU consistently produces highly skilled professionals, excelling in board exams and contributing significantly to regional industries. Achieving ISO 9001:2015 Certification and Level II Institutional Accreditation, along with accreditation for 50 academic programs by AACCUP, Inc., reflects BulSU\'s dedication, supported by 1,138 faculty members and 476 non-teaching personnel serving 35,958 students.</string>
+    <string name="bulsu_vision">Bulacan State University is a progressive knowledge-generating institution globally recognized for excellent instruction, pioneering research, and responsive community engagements</string>
+    <string name="bulsu_mission">Bulacan State University exists to produce highly competent, ethical and service-oriented professionals that contribute to the sustainable socio-economic growth and development of the nation</string>
+    <string name="bulsu_history"></string>
+
+
+    <!-- BULSU FAQS   -->
+    <string name="faq1_question">1. How do I access my student portal and email account?</string>
+    <string name="faq2_question">2. What are the registration procedures for the upcoming semester?</string>
+    <string name="faq3_question">3. How can I view my class schedule and grades online?</string>
+    <string name="faq4_question">4. How do I request official transcripts or other academic records?</string>
+    <string name="faq5_question"></string>
+
+    <string name="faq1_answer">To access your student portal, please visit https://bulsu.priisms.online or access it directly through our app. Then, log in using your username and password.</string>
+    <string name="faq2_answer">Registration procedures vary by semester. Typically, you will receive an email notification with instructions on how to register for courses online. Make sure to check your university email regularly and follow the deadlines provided.</string>
+    <string name="faq3_answer">You can view your class schedule and grades by logging in to the student portal. Once logged in, navigate to the "Academic Records" or "My Schedule" section to access your class schedule and grades for each course.</string>
+    <string name="faq4_answer">To request official transcripts or academic records, fill out the transcript request form available on the Registrar\'s Office website and submit it according to the specified instructions.</string>
+    <string name="faq5_answer"></string>
+
+
+    <string name="app_answer"><b><big>Application Requirements</big></b>
+        \n <li>Two (2) recent 2x2 ID pictures with white background. Computer generated pictures are not allowed.</li>
+        \n <li>One (1) photocopy and one (1) original copy of any of the following:
+Certificate of Grades or Transcript of Record.</li>
+        \n <li>For College Freshmen: Grade 11 Certificate of Grades for First and Second Semeter.</li>
+    </string>
+
+
+    <string name="grade_answer"><b><big>Grade Requirements</big></b>
+        \n <li>For courses with Board Examinations - 85% GPA or Higher.</li>
+        \n <li>For Bachelor of Industrial Technology - GPA may be lower than 83% but with no failing grades.</li>
+        \n <li>For CPTE (Continuing Professional Teacher Education) - Transcript of Records of any completed four-year course.</li>
+        \n <li>For Grade 7 - Form 138 (Report Card) of Grade 5 with final rating.</li>
+
+    </string>
+
+
+    <!-- ORGANIZATIONS-->
+
+    <string name="orgdesc_1">Engage in scholarly pursuits and research initiatives, fostering intellectual growth and academic excellence within the university community.</string>
+    <string name="orgdesc_2">Cultivate bonds of brotherhood and service while upholding principles of leadership, scholarship, and community involvement.</string>
+    <string name="orgdesc_3">Explore diverse interests and recreational activities, promoting camaraderie and personal enrichment among members.</string>
+    <string name="orgdesc_4">Advocate for political awareness and change, promoting civic engagement and active participation in democratic processes.</string>
+    <string name="orgdesc_5">Serve the community through volunteerism and advocacy, addressing social issues and promoting positive societal change.</string>
+    <string name="orgdesc_6">Explore spirituality and religious practices, providing support and fellowship for individuals seeking faith-based communities.</string>
+    <string name="orgdesc_7">Foster creativity and design innovation, shaping future architects and artists with a focus on aesthetic excellence.</string>
+    <string name="orgdesc_8">Promote artistic expression and effective communication, nurturing creativity and critical thinking skills in a diverse range of disciplines.</string>
+    <string name="orgdesc_9">Develop business acumen and entrepreneurial skills, preparing future leaders for success in the dynamic world of commerce.</string>
+    <string name="orgdesc_10">Study and apply principles of criminal justice, contributing to the promotion of safety, fairness, and justice in society.</string>
+    <string name="orgdesc_11">Prepare aspiring educators and promote lifelong learning, shaping the next generation of teachers and educational leaders.</string>
+    <string name="orgdesc_12">Innovate and engineer solutions to real-world problems, driving technological advancements and contributing to societal progress.</string>
+    <string name="orgdesc_13">Excel in hospitality and tourism industries, providing exceptional service and memorable experiences for guests and travelers.</string>
+    <string name="orgdesc_14">Acquire practical skills in industrial technology, preparing students for careers in manufacturing, production, and technical fields.</string>
+    <string name="orgdesc_15">Explore cutting-edge advancements in ICT, driving innovation and technological breakthroughs in the digital sphere.</string>
+    <string name="orgdesc_16">Provide compassionate care and medical expertise, training future nurses to deliver quality healthcare and support to individuals and communities.</string>
+    <string name="orgdesc_17">Promote physical fitness and sportsmanship, encouraging active lifestyles and fostering a culture of health and well-being.</string>
+
+    <!--    Academic Group-->
+    <string name="org_1"><b><big></big></b>
+    \n <li>Bulacan State University Microsoft Student Community (BulSU MSC) *</li>
+    \n\n <li>Bulacan State University Television (BTV) **</li>
+    \n\n <li>BulSU Advertising Guild (AdGuild)</li>
+    \n\n <li>BulSU Cinephilia (BC)</li>
+    \n\n <li>Chamber of Young Business Leader – BulSU Junior Marketing Association (CYBL-BulSU JMA)</li>
+    \n\n <li>Junior Academic Research Enthusiast Society (JARES)</li>
+    \n\n <li>Hult Prize Bulacan State University (Hult Prize BulSU)</li>
+    \n\n <li>Mergence of Innovative and Nurtured DOST Scholars (MINDS)</li>
+</string>
+
+    <!--    Fraternities-->
+    <string name="org_2">
+   \n \n <li>Alpha Phi Omega (AΦΩ) Epsilon Kappa Chapter</li>
+    \n\n <li>Alpha Sigma Phi (AΣΦ) Philippines, Incorporated</li>
+</string>
+
+    <!--    Lifestyle Groups-->
+    <string name="org_3">
+   \n \n <li>BulSU Archery Club (BAC)</li>
+    \n\n <li>BulSU – The Otau Philippines (BulSU – Top)</li>
+   \n \n <li>Rock Our Music Association of the Students in the University (ROMASU)</li>
+</string>
+
+    <!--    Political Groups-->
+    <string name="org_4">
+    \n\n <li>BulSU – ONE (B1)</li>
+</string>
+
+    <!--    Socio-Civic-->
+    <string name="org_5">
+    \n\n <li>Bulacan State University Debate Society (BSUDS)</li>
+    \n\n <li>BulSU Bahaghari (BB)</li>
+    \n\n <li>BulSU Kababayang Yayakap sa mga Kapus – palad (BulSU KAYAKAP)</li>
+    \n\n <li>BulSU National Service Corps (BulSU – NSRC)</li>
+    \n\n <li>Hiraya Kolektib (Hiraya) *</li>
+    \n\n <li>JJC-Bulacan State University ( JJC – BulSU)</li>
+    \n\n <li>Rotaract Club of Bulacan State University – Main (RAC BulSU – Main)</li>
+    \n\n <li>Youth Empowerment and Advancement of Bulacan BulSU Chapter (YEABULSU)</li>
+    \n\n <li>Youth on the Rock BulSU Main Campus (YTR) **</li>
+</string>
+
+    <!--    Spiritual and Religious Groups-->
+    <string name="org_6">
+    \n\n <li>Elevate Bulacan State University (Elevate BulSU) **</li>
+    \n\n <li>Fuze Organization Education Inc. (FORGE)*</li>
+    \n\n <li>Proud Disciples of Jesus (PDJ Campus)</li>
+    \n\n <li>Youth for the Nation (YNAT)</li>
+</string>
+
+    <!--    College of Architecture and Fine Arts (CAFA)-->
+    <string name="org_7">
+    \n\n <li>Advertising Students Central Organization (ADCORE)</li>
+    \n\n <li>Architectural Students’ Association of the Philippines, Inc-BulSU Chapter (ASAPhil, Inc – BulSU)</li>
+    \n\n <li>CAFA Movers (CM)</li>
+    \n\n <li>Circle of Landscape Architecture Students – BSU (CLAS – BSU)</li>
+    \n\n <li>Junior Philippine Institute of Architects Bulacan State University Section (JrPIA – BulSU) *</li>
+    \n\n <li>Prime League (PL)</li>
+    \n\n <li>United Architects of the Philippines Student Auxiliary (UAPSA)</li>
+</string>
+
+    <!--    College of Arts and Letters (CAL)-->
+    <string name="org_8">
+    \n\n <li>BulSU Broadcasting Association (BroadcAss) **</li>
+    \n\n <li>Sining Sakbibi Ensemble (SSE) *</li>
+    \n\n <li>The BulSU Journalism Society (JournSoc)</li>
+</string>
+
+    <!--    College of Business Administration (CBA)-->
+    <string name="org_9">
+    \n\n <li>Junior Economists Organization – Bulacan State University Main (JEO – BulSU Main) *</li>
+    \n\n <li>Junior Financial Executive – Bulacan State University (JFINEX – BulSU)</li>
+    \n\n <li>Junior Philippines Institute of Accountants – Bulacan State University (JPIA – BULSU)</li>
+    \n\n <li>Society of Young Entrepreneurs (SYE)</li>
+</string>
+
+    <!--    College of Criminal Justice Education (CCJE)-->
+    <string name="org_10">
+    \n\n <li>Bulacan State University – College of Criminal Justice Education Red Cross Youth Council (BulSU CCJE RCYC)</li>
+    \n\n <li>Criminology Students Society (CSS)</li>
+    \n\n <li>Legal Management Society (LMS)</li>
+</string>
+
+    <!--    College of Education (COED)-->
+    <string name="org_11">
+    \n\n <li>Association of Early Childhood Education Students (AECES)</li>
+    \n\n <li>Association of Science Major (ASM)</li>
+    \n\n <li>Kapisanan ng mga Mag – aaral sa Araling Panlipunan (KAPIMAPA)</li>
+    \n\n <li>Magistral Organization of Future English Mentors (MORFEME)</li>
+    \n\n <li>MAPEH Major Society (MMS)</li>
+    \n\n <li>Samahan ng mga Mag-aaral sa Filipino (SAMAFIL)</li>
+    \n\n <li>Servite Domino – BulSU Catholic Students’ Association (SD) *</li>
+    \n\n <li>Society of Elementary Education (SEEDS)</li>
+    \n\n <li>Society of Mathematics Major for Education Students (SMMES)</li>
+    \n\n <li>Society of Technology and Livelihood Education Students (SOTLES)</li>
+    \n\n <li>United Values Education Community (UniVEDCOm)</li>
+</string>
+
+    <!--    College of Engineering (COE)-->
+    <string name="org_12">
+    \n\n <li>Association of Engineering Youth for Sustainable Innovation – Bulacan State University (AEYSI BulSU)</li>
+    \n\n <li>Association of Integrated Mechatronics Engineering Students (AIMEES)</li>
+    \n\n <li>Institute of Computer Engineers of the Philippines Students Edition – Bulacan State University – Main Campus (CpEP SE – BulSU – Main)</li>
+    \n\n <li>Institute of Electronics Engineers of the Philippines Bulacan State University Student Chapter (IECEP BulSU SC)</li>
+    \n\n <li>Institute of Integrated Electrical Engineers BulSU Student Chapter (IIEE BulSU SC)</li>
+    \n\n <li>Integrated Students of Industrial Engineering -BulSU Student Chapter (ISIE-BulSU SC)</li>
+    \n\n <li>Philippine Institute of Civil Engineers Bulacan State University Student Chapter (PICE BulSU SC)</li>
+    \n\n <li>Philippine Society of Mechanical Engineers Bulacan State University Student Chapter (PSME BulSU SC)</li>
+    \n\n <li>Society of Manufacturing Engineers BulSU Student Chapter (PSME BulSU SC)</li>
+    \n\n <li>Volunteers’ Community (VolComm)</li>
+</string>
+
+
+    <!--    College of Hospitality and Tourism Management (CHTM)-->
+    <string name="org_13">
+    \n\n <li>Bartending Enthusiasts and Students Team (BEST)</li>
+    \n\n <li>Council of Hotel and Restaurant Management Students (CHARMS)</li>
+    \n\n <li>Federation of Accelerating Students of Tourism (FAST)</li>
+</string>
+
+    <!--    College of Industrial Technology (CIT)-->
+    <string name="org_14">
+    \n\n <li>Association of Automotive technology Students (CIT)</li>
+    \n\n <li>CIT Band Reunited (CBR) **</li>
+    \n\n <li>College Association of Drafting Students (CADS)</li>
+    \n\n <li>Collegiate Resource Auxiliary of Technological Visionaries (CIT Creative)</li>
+    \n\n <li>Federation of Food Technology Students (FFTS)</li>
+    \n\n <li>Society of Proficient Innovative Computer Enthusiasts (SPICE)</li>
+    \n\n <li>Technikous Omada (TO)</li>
+    \n\n <li>Technocrats for Electronics and Electronics Communication Society (TTECS)</li>
+</string>
+
+    <!--    College of Information and Communications Technology (CICT)-->
+    <string name="org_15">
+    \n\n <li>Brigade of Library and Information Science Students (BLISS)</li>
+    \n\n <li>CICT FRX Crew (FRX)</li>
+    \n\n <li>Information Systems Synergy Society (IS3) *</li>
+    \n\n <li>Society for the Welfare of Information Technology Students (SWITS)</li>
+</string>
+
+    <!--    College of Nursing (CON)-->
+    <string name="org_16">
+    \n\n <li>College of nursing – Red Cross Youth Council (CON RCYC)</li>
+    \n\n <li>Knightingale Society (KS)</li>
+    \n\n <li>Unang Hakbang (UH)</li>
+</string>
+
+    <!--    College of Sports, Exercise and Recreation (CSER)-->
+    <string name="org_17">
+    \n\n <li>League of Sports and fitness Ambassadors (LSFA)</li>
+</string>
+
+
+</resources>
+

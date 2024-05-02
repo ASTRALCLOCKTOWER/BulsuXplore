@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- THESE ARE THE MENUS DISPLAYED ON HOMEPAGE-->
+    <!--papalitan ng "announcement" 1st item-->
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/home_icon" />
+
+    <item
+        android:id="@+id/xplore"
+        android:title="Xplore"
+        android:icon="@drawable/map_icon" />
+<!--    <item-->
+<!--        android:id="@+id/events"-->
+<!--        android:title="Events"-->
+<!--        android:icon="@drawable/events_icon" />-->
+    <item
+        android:id="@+id/profile"
+        android:title="Login"
+        android:icon="@drawable/profile_icon" />
+
+</menu>

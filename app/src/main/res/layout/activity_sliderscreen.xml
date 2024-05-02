@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:flow_horizontalAlign="center">
+
+    <ImageView
+        android:id="@+id/slider_image"
+        android:layout_width="150.22dp"
+        android:layout_height="173dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="107dp"
+        android:adjustViewBounds="false"
+        android:scaleType="center"
+        android:src="@drawable/main_icon_logo" />
+    
+    
+    <TextView
+        android:id="@+id/slider_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/slider1Name"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/slider_descp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="45dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/slider1Desc"
+        android:justificationMode="inter_word"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:fontFamily="@font/inter"
+        android:gravity="center" />
+
+</LinearLayout>

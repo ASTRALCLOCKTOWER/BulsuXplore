@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:foregroundTint="@color/white"
+    android:orientation="vertical"
+    tools:context=".users.LogInActivity">
+
+
+    <ImageView
+        android:id="@+id/BulsuXplore"
+        android:src="@drawable/main_bulsuxplore"
+        android:layout_width="359dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="180dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <EditText
+            android:id="@+id/signupFullName"
+            android:hint="Full Name"
+            android:inputType="textCapWords"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/black"
+            android:textDirection="firstStrong"
+            android:drawableLeft="@drawable/person_icon"
+            android:drawablePadding="13dp"
+            android:layout_width="327dp"
+            android:layout_height="50dp"
+            android:layout_margin="40dp"
+            android:layout_marginTop="10dp"
+            android:translationY="-40dp" />
+
+        <EditText
+            android:id="@+id/signupEmail"
+            android:hint="Bulsu Email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/black"
+            android:singleLine="true"
+            android:drawableLeft="@drawable/email_icon"
+            android:drawablePadding="13dp"
+            android:layout_width="327dp"
+            android:layout_height="50dp"
+            android:layout_margin="40dp"
+            android:translationY="-90dp" />
+
+        <EditText
+            android:id="@+id/signupPhoneNumber"
+            android:inputType="phone"
+            android:hint="Phone Number"
+            android:maxLength="11"
+            android:textColor="@color/black"
+            android:backgroundTint="#666456"
+            android:drawableLeft="@drawable/phone_icon"
+            android:drawablePadding="13dp"
+            android:layout_width="327dp"
+            android:layout_height="50dp"
+            android:layout_margin="40dp"
+            android:layout_marginTop="372dp"
+            android:translationY="-140dp" />
+
+        <EditText
+            android:id="@+id/signupPassword"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="#666456"
+            android:backgroundTint="#666456"
+            android:drawableLeft="@drawable/password_icon"
+            android:drawablePadding="13dp"
+            android:layout_width="327dp"
+            android:layout_height="50dp"
+            android:layout_margin="40dp"
+            android:layout_marginTop="372dp"
+            android:translationY="-190dp" />
+
+        <Button
+            android:id="@+id/signupButton"
+            android:text="CONTINUE"
+            app:cornerRadius="5dp"
+            android:backgroundTint="@color/blue"
+            android:layout_width="327dp"
+            android:layout_height="48dp"
+            android:translationX="43dp"
+            android:translationY="-190dp"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <TextView
+            android:id="@+id/loginRedirect"
+            android:text="Already Have an Account? Login"
+            android:gravity="center"
+            android:textColor="@color/blue"
+            android:layout_width="255dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="30dp"
+            android:translationX="50dp"
+            android:translationY="-180dp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="25dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="25dp"
+    android:layout_marginBottom="5dp"
+    android:backgroundTint="#F5F5F5"
+    app:cardCornerRadius="18dp"
+    app:cardElevation="10dp"
+    app:contentPadding="5dp">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            >
+
+
+            <TableRow
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp">
+
+                <ImageView
+                    android:id="@+id/context"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:layout_margin="10dp"
+                    app:srcCompat="@drawable/pen"
+                    app:tint="#49454F" />
+
+                <TextView
+                    android:id="@+id/Context"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Edit Event"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iconUsername"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:layout_margin="10dp"
+                    app:srcCompat="@drawable/person_icon"
+                    app:tint="#F0C307" />
+
+                <TextView
+                    android:id="@+id/Username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Username"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iconEvent"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_margin="15dp"
+                    app:srcCompat="@drawable/events_icon"
+                    app:tint="#2195F2" />
+
+                <EditText
+                    android:id="@+id/editEventName"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:hint="Event Name"
+                    android:textSize="16dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iconLocation"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:layout_margin="15dp"
+                    app:srcCompat="@drawable/xplore_logo"
+                    app:tint="#4CA7F1" />
+
+                <EditText
+                    android:id="@+id/editLocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Location"
+                    android:inputType="textCapWords"
+                    android:textSize="16dp" />
+            </TableRow>
+
+
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/icondate"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:layout_margin="15dp"
+                    app:srcCompat="@drawable/ic_action_calendar"
+                    app:tint="#2195F2" />
+
+                <EditText
+                    android:id="@+id/editYear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:hint="YYYY"
+                    android:maxLength="4"
+                    android:inputType="date"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/editMonth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:hint="MM"
+                    android:maxLength="2"
+                    android:inputType="date"
+                    android:textSize="16dp" />
+                <EditText
+                    android:id="@+id/editDay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:hint="DD"
+                    android:maxLength="2"
+                    android:inputType="date"
+
+
+                    android:textSize="16dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iconTime"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:layout_margin="15dp"
+                    app:srcCompat="@drawable/ic_action_time"
+                    app:tint="#2195F2" />
+
+                <EditText
+                    android:id="@+id/editHour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:hint="hh"
+                    android:maxLength="2"
+                    android:inputType="time"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/tvcolon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text=":"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/editMinute"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:hint="mm"
+                    android:maxLength="2"
+                    android:inputType="time"
+                    android:textSize="16dp" />
+                <EditText
+                    android:id="@+id/editAMPM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:hint="AM/PM"
+                    android:maxLength="2"
+                    android:textSize="16dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp">
+
+                <ImageView
+                    android:id="@+id/iconDescription"
+                    android:layout_width="26dp"
+                    android:layout_height="22dp"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/description"
+                    app:tint="#2195F2" />
+
+                <EditText
+                    android:id="@+id/editDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:hint="Description"
+                    android:textSize="16dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

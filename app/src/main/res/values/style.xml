@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="bulsuxplore">
+        <item name="android:textSize">46sp</item>
+        <item name="android:textColor">#B8221C</item>
+    </style>
+
+    <style name="roundImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">18dp</item>
+        <item name="color">@color/white</item>
+
+    </style>
+
+    <style name="profileImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50dp</item>
+        <item name="color">@color/white</item>
+
+
+    </style>
+
+</resources>

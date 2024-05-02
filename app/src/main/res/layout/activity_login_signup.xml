@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".users.LoginSignupActivity">
+
+    <ImageView
+        android:id="@+id/bulsuxplore"
+        android:layout_width="314dp"
+        android:layout_height="112dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="165dp"
+        android:baselineAlignBottom="false"
+        android:src="@drawable/main_bulsuxplore" />
+
+    <Button
+        android:id="@+id/loginRedirect"
+        android:layout_width="327dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/red"
+        android:layout_gravity="center_horizontal"
+        android:text="LOGIN"
+        app:cornerRadius="5dp"
+
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <Button
+        android:id="@+id/signupRedirect"
+        android:layout_width="327dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/blue"
+        android:text="SIGNUP"
+        android:layout_gravity="center_horizontal"
+        app:cornerRadius="5dp"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+
+    <TextView
+        android:id="@+id/visit"
+        android:layout_width="255dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/are_you_vis"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:textStyle="italic"/>
+
+    <Button
+        android:id="@+id/visitorsignupRedirect"
+        android:layout_width="327dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/grey"
+        android:text="VISITOR ACCESS"
+        app:cornerRadius="5dp"
+        android:layout_gravity="center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+
+</LinearLayout>

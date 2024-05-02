@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1001937613871",
+    "project_id": "bulsuxplore-maincampus",
+    "storage_bucket": "bulsuxplore-maincampus.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001937613871:android:5aaf9f575669fde5bb02da",
+        "android_client_info": {
+          "package_name": "com.example.bulsuxplore_main"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxV6Uw5wJTEoahJI_bUka8DGonrWhDlng"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

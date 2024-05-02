@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.search.SearchBar
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp"
+        android:backgroundTint="@color/grey"
+        android:hint="Search Buildings, Facilities or Colleges"
+        android:paddingHorizontal="0dp"
+        android:textAppearance="@color/grey"
+        app:navigationIcon="@drawable/icon_search"
+        app:navigationIconTint="@color/red" />
+
+    <ListView
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal" />
+
+
+
+</LinearLayout>
